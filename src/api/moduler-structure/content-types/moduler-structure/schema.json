@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "moduler_structures",
+  "info": {
+    "singularName": "moduler-structure",
+    "pluralName": "moduler-structures",
+    "displayName": "modulerStructure",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Icon": {
+      "type": "string",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "ShortDesc": {
+      "type": "text",
+      "required": true
+    },
+    "LongDesc": {
+      "type": "richtext",
+      "required": true
+    },
+    "Url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
