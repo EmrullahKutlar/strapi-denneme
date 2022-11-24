@@ -20,21 +20,13 @@
       "type": "string",
       "required": true
     },
-    "ShortDesc": {
-      "type": "text",
-      "required": true
-    },
-    "LongDesc": {
-      "type": "richtext",
-      "required": true
-    },
     "Url": {
       "type": "string",
       "required": true
     },
     "contents": {
       "type": "json",
-      "required": true
+      "required": false
     }
   }
 }
