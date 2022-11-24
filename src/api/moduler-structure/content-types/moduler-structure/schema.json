@@ -31,6 +31,10 @@
     "Url": {
       "type": "string",
       "required": true
+    },
+    "contents": {
+      "type": "json",
+      "required": true
     }
   }
 }
